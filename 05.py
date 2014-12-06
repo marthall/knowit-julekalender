@@ -9,7 +9,7 @@ for number in perm_iterator:
     print number, 
 
     i = 2
-    while i * i < number:
+    while i * i < number and i < min_max_prime_factor:
         while number % i == 0:
             if i == number:
                 break
